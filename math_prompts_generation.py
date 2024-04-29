@@ -30,6 +30,7 @@ def algebric_expression_generation(question: str):
 
 
 # DISCLAIMER: The following examples inside the prompts are partly generated with Claude Opus 3
+# NOTE: You may adapt the prompt based on the model you use
 python_prompt = '''
 <Question>: John has A apples. He gives B apples to his friend. How many apples does John have left?
 <Function>:
