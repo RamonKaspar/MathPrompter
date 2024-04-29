@@ -1,9 +1,8 @@
-test_cases = [
+test_cases_paper = [
     {
         'q': 'At a restaurant, each adult meal costs $5 and kids eat free. If a group of 15 people came in and 8 were kids, how much would it cost for the group to eat?', 
         'qt': 'At a restaurant, each adult meal costs A and kids eat free. If a group of B people came in and C were kids, how much would it cost for the group to eat?', 
         'Mapping': {'A': 5.0, 'B': 15.0, 'C': 8.0},
-        'Algebraic Expreesion': '(A * (B - C))',
         'Correct': 35.0
     },
     {
@@ -31,3 +30,27 @@ test_cases = [
         'Correct': 54
     }
 ]
+
+
+test_cases_own = [
+    {
+        'q': 'A train travels 320 kilometers south and then 150 kilometers north. What is the net distance traveled by the train?',
+        'qt': 'A train travels A kilometers south and then B kilometers north. What is the net distance traveled by the train?',
+        'Mapping': {'A': 320.0, 'B': 150.0},
+        'Correct': 170.0
+    },
+    {
+        'q': 'A concert hall has 425 seats. During a concert, 285 tickets were sold at full price and the remaining at half price. If the full-price ticket costs $30, what was the total revenue?',
+        'qt': 'A concert hall has A seats. During a concert, B tickets were sold at full price and the remaining at half price. If the full-price ticket costs C, what was the total revenue?',
+        'Mapping': {'A': 425.0, 'B': 285.0, 'C': 30.0},
+        'Correct': 9975.0
+    },
+    {
+        'q': 'The temperature was 5 degrees Celsius at noon, but it had dropped to -30 degrees Celsius by midnight. What was the total temperature change?',
+        'qt': 'The temperature was A degrees Celsius at noon, but it had dropped to B degrees Celsius by midnight. What was the total temperature change?',
+        'Mapping': {'A': 5.0, 'B': -30.0},
+        'Correct': 35.0
+    }
+]
+
+test_cases = test_cases_paper + test_cases_own
