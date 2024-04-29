@@ -2,6 +2,10 @@
 
 This repository contains an implementation of the techniques presented in the research paper "MathPrompter: Mathematical Reasoning Using Large Language Models" by Shima Imani, Liang Du, and Harsh Shrivastava from Microsoft Research. The implementation aims to replicate the improved performance of Large Language Models (LLMs) in arithmetic reasoning tasks using the MathPrompter technique.
 
+## Disclaimer
+
+This project is an independent implementation of the techniques described in the "MathPrompter: Mathematical Reasoning Using Large Language Models" paper by Microsoft researchers. It is not officially associated with the original authors or Microsoft. For the official and original research, please refer to the cited paper.
+
 ### Installation
 
 Clone this repository and navigate into the project directory. Install the required dependencies:
