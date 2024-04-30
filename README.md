@@ -26,6 +26,8 @@ python main.py
 
 Detailed documentation on function usage and parameters can be found in the docstrings within the code.
 
+For instructions on setting up a connection to an LLM API, please consult the `README.md` file located in the `llm_inference` directory.
+
 ## Citing the Original Work
 
 This implementation is based on the following work:
