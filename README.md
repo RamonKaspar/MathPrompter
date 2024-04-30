@@ -28,6 +28,17 @@ Detailed documentation on function usage and parameters can be found in the docs
 
 For instructions on setting up a connection to an LLM API, please consult the `README.md` file located in the `llm_inference` directory.
 
+### Future Work and Enhancements
+
+While the current implementation of MathPrompter provides a foundational approach to solving algebraic questions, there are several enhancements and optimizations that can further improve its performance and functionality:
+
+1. **Parallelization of API Calls**:
+
+   - Implement parallel processing to handle API calls more efficiently. This could significantly speed up computations by making simultaneous requests.
+
+2. **Probabilistic Results Implementation**:
+   - Refine the result evaluation mechanism to return a probability along with each result. Currently, a consensus needs to be reached across all iterations for a result to be returned.
+
 ## Citing the Original Work
 
 This implementation is based on the following work:
