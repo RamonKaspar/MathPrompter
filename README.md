@@ -52,7 +52,11 @@ While the current implementation of MathPrompter provides a foundational approac
    - Implement parallel processing to handle API calls more efficiently. This could significantly speed up computations by making simultaneous requests.
 
 2. **Probabilistic Results Implementation**:
+
    - Refine the result evaluation mechanism to return a probability along with each result. Currently, a consensus needs to be reached across all iterations for a result to be returned.
+
+3. **Use Different Model Parameters**:
+   - We typically prompt the LLM $N$ times (default is $N=5$) to generate algebraic expressions and Python code. By varying model parameters such as temperature and top_p in future iterations, we could potentially obtain more diverse answers.
 
 ## Citing the Original Work
 
