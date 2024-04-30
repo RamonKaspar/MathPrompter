@@ -2,6 +2,21 @@
 
 This repository contains an implementation of the techniques presented in the research paper ["MathPrompter: Mathematical Reasoning Using Large Language Models"](https://arxiv.org/abs/2303.05398) by Shima Imani, Liang Du, and Harsh Shrivastava from Microsoft Research. The implementation aims to replicate the improved performance of Large Language Models (LLMs) in arithmetic reasoning tasks using the MathPrompter technique.
 
+### Custom Few-Shot Prompts
+
+We have adopted customized few-shot prompts instead of those proposed in the original paper. These prompts have shown improved performance and consistency on platforms like Google Gemini Pro and Azure OpenAI GPT-3.5-Turbo.
+
+Example prompt for arithmetic expression generation:
+
+```plaintext
+<Question>: John has A apples. He gives B apples to his friend. How many apples does John have left?
+Answer = A - B
+...
+<Question>: {question}
+```
+
+However, you should experiment with different prompts and test which prompts work best for your specific LLM API, as effectiveness can vary depending on the model.
+
 ### Disclaimer
 
 This project is an independent implementation of the techniques described in the ["MathPrompter: Mathematical Reasoning Using Large Language Models"](https://arxiv.org/abs/2303.05398) paper by Microsoft researchers. It is not officially associated with the original authors or Microsoft. For the official and original research, please refer to the cited paper.
