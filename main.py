@@ -14,7 +14,7 @@ def mathprompter(question: str, iterations=5, sample_size=5):
         The most frequently computed result over iterations, or None if no consistent result was found.
     """
     result_counts = {}
-    for _ in range(iterations):
+    for _ in range(iterations):     # TODO: Parallelize this
         try:
             qt, variable_mapping = generating_algebraic_template(question)
             exp = algebric_expression_generation(qt)
