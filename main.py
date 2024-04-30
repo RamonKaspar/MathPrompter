@@ -36,5 +36,9 @@ def mathprompter(question: str, iterations=5, sample_size=5):
         print("No successful computations were found.")
         return None
 
-    
+# Example usage
+if __name__ == '__main__':
+    question = 'At a restaurant, each adult meal costs $5 and kids eat free. If a group of 15 people came in and 8 were kids, how much would it cost for the group to eat?'
+    res = mathprompter(question)
+    print(f"Result: {res}")
     
