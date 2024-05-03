@@ -1,0 +1,1636 @@
+Question: In Haley's class 13 boys love to play marbles and 50 boys love to play cards. If Haley has 26 marbles How many will each of the boys receive?
+Correct Answer: 2.0
+Predicted Answer Total: 0.0
+Predicted Answer Algebraic Expression: 0.0
+Predicted Answer Python Code: 0.0
+Generated Algebraic Template: In Haley's class A boys love to play marbles and B boys love to play cards. If Haley has C marbles How many will each of the boys receive?
+Generated Expression: C // (A + B)
+Generated Python Code: def solution(A, B, C):
+    return C // (A + B)
+Variable Mapping: {'A': 13.0, 'B': 50.0, 'C': 26.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Emily is making bead necklaces for her friends. She had 2 beads and she was able to make 32 necklaces. How many beads did each necklace need?
+Correct Answer: 16.0
+Predicted Answer Total: 0.0
+Predicted Answer Algebraic Expression: 0.0
+Predicted Answer Python Code: 0.0
+Generated Algebraic Template: Emily is making bead necklaces for her friends. She had A beads and she was able to make B necklaces. How many beads did each necklace need?
+Generated Expression: A // B
+Generated Python Code: def solution(A, B):
+    return A // B
+Variable Mapping: {'A': 2.0, 'B': 32.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: He then went to see the oranges being harvested. He found out that they harvest 67 sacks per day and that each sack containes 12 oranges. How many oranges are harvested if they harvest a total of 35 sacks of oranges?
+Correct Answer: 420.0
+Predicted Answer Total: 28140.0
+Predicted Answer Algebraic Expression: 28140.0
+Predicted Answer Python Code: 28140.0
+Generated Algebraic Template: He then went to see the oranges being harvested. He found out that they harvest A sacks per day and that each sack containes B oranges. How many oranges are harvested if they harvest a total of C sacks of oranges?
+Generated Expression: A * B * C
+Generated Python Code: def solution(A, B, C):
+    return A * B * C
+Variable Mapping: {'A': 67.0, 'B': 12.0, 'C': 35.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Mary is baking a cake. The recipe calls for 9 cups of flour and 11 cups of sugar. She already put in 4 cups of flour. How many more cups of sugar than cups of flour does she need to add now?
+Correct Answer: 6.0
+Predicted Answer Total: 7.0
+Predicted Answer Algebraic Expression: 7.0
+Predicted Answer Python Code: 7.0
+Generated Algebraic Template: Mary is baking a cake. The recipe calls for A cups of flour and B cups of sugar. She already put in C cups of flour. How many more cups of sugar than cups of flour does she need to add now?
+Generated Expression: B - C
+Generated Python Code: def solution(A, B, C):
+    return B - C
+Variable Mapping: {'A': 9.0, 'B': 11.0, 'C': 4.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: There are 8 different books and 10 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 61 of the movies How many more movies than books are there in the ' crazy silly school ' series?
+Correct Answer: 2.0
+Predicted Answer Total: 40.0
+Predicted Answer Algebraic Expression: 40.0
+Predicted Answer Python Code: 40.0
+Generated Algebraic Template: There are A different books and B different movies in the ' crazy silly school ' series. If you read C of the books and watched D of the movies How many more movies than books are there in the ' crazy silly school ' series?
+Generated Expression: D - C - (B - A)
+Generated Python Code: def solution(A, B, C, D):
+    return D - C - (B - A)
+Variable Mapping: {'A': 8.0, 'B': 10.0, 'C': 19.0, 'D': 61.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Jake has 7 fewer peaches than Steven and 9 more peaches than Jill. Steven has 16 peaches. How many peaches does Jake have?
+Correct Answer: 9.0
+Predicted Answer Total: 18.0
+Predicted Answer Algebraic Expression: 18.0
+Predicted Answer Python Code: 18.0
+Generated Algebraic Template: Jake has A fewer peaches than Steven and B more peaches than Jill. Steven has C peaches. How many peaches does Jake have?
+Generated Expression: C - A + B
+Generated Python Code: def solution(A, B, C):
+    return C - A + B
+Variable Mapping: {'A': 7.0, 'B': 9.0, 'C': 16.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: The grasshopper and the frog had a jumping contest. The grasshopper jumped 13 inches. The grasshopper jumped 2 inches farther than the grasshopper. How far did the frog jump?
+Correct Answer: 11.0
+Predicted Answer Total: 15.0
+Predicted Answer Algebraic Expression: 15.0
+Predicted Answer Python Code: 15.0
+Generated Algebraic Template: The grasshopper and the frog had a jumping contest. The grasshopper jumped A inches. The grasshopper jumped B inches farther than the grasshopper. How far did the frog jump?
+Generated Expression: A + B
+Generated Python Code: def solution(A, B):
+    return A + B
+Variable Mapping: {'A': 13.0, 'B': 2.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Frank was reading through his favorite book. The book had 193 pages equally distributed over 15 chapters. It took Frank 660 days to finish the book. How many chapters did he read per day?
+Correct Answer: 44.0
+Predicted Answer Total: 0.0227272727272727
+Predicted Answer Algebraic Expression: 0.0227272727272727
+Predicted Answer Python Code: 0.022727272727272728
+Generated Algebraic Template: Frank was reading through his favorite book. The book had A pages equally distributed over B chapters. It took Frank C days to finish the book. How many chapters did he read per day?
+Generated Expression: B / C
+Generated Python Code: def solution(A, B, C):
+    return B / C
+Variable Mapping: {'A': 193.0, 'B': 15.0, 'C': 660.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: A waiter had 12 customers. After some left he still had 14 customers. Then he got 10 new customers How many customers does he have now?
+Correct Answer: 24.0
+Predicted Answer Total: 8.0
+Predicted Answer Algebraic Expression: 8.0
+Predicted Answer Python Code: 8.0
+Generated Algebraic Template: A waiter had A customers. After some left he still had B customers. Then he got C new customers How many customers does he have now?
+Generated Expression: A - B + C
+Generated Python Code: def solution(A, B, C):
+    return A - B + C
+Variable Mapping: {'A': 12.0, 'B': 14.0, 'C': 10.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: An industrial machine can make 6 shirts a minute. It worked for 12 minutes yesterday and for 14 shirts today. How many shirts did machine make altogether?
+Correct Answer: 156.0
+Predicted Answer Total: 86.0
+Predicted Answer Algebraic Expression: 86.0
+Predicted Answer Python Code: 86.0
+Generated Algebraic Template: An industrial machine can make A shirts a minute. It worked for B minutes yesterday and for C shirts today. How many shirts did machine make altogether?
+Generated Expression: (A * B) + C
+Generated Python Code: def solution(A, B, C):
+    return (A * B) + C
+Variable Mapping: {'A': 6.0, 'B': 12.0, 'C': 14.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Jessica cut some roses from her flower garden to put in her vase. There are now 19 roses in the vase. If there were 3 roses in the vase initially How many roses did she cut?
+Correct Answer: 16.0
+Predicted Answer Total: -16.0
+Predicted Answer Algebraic Expression: -16.0
+Predicted Answer Python Code: -16.0
+Generated Algebraic Template: Jessica cut some roses from her flower garden to put in her vase. There are now A roses in the vase. If there were B roses in the vase initially How many roses did she cut?
+Generated Expression: B - A
+Generated Python Code: def solution(A, B):
+    return B - A
+Variable Mapping: {'A': 19.0, 'B': 3.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Steven has 12 peaches. Jake has 4 fewer peaches than Steven who has 67 more peaches than Jill. How many peaches does Jake have?
+Correct Answer: 8.0
+Predicted Answer Total: -59.0
+Predicted Answer Algebraic Expression: -59.0
+Predicted Answer Python Code: -59.0
+Generated Algebraic Template: Steven has A peaches. Jake has B fewer peaches than Steven who has C more peaches than Jill. How many peaches does Jake have?
+Generated Expression: A - B - C
+Generated Python Code: def solution(A, B, C):
+    return A - B - C
+Variable Mapping: {'A': 12.0, 'B': 4.0, 'C': 67.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Rachel's tree had 4 apples. She picked 2 apples from her tree. Thereafter 3 new apples grew on the tree. How many apples are there on the tree now?
+Correct Answer: 1.0
+Predicted Answer Total: 5.0
+Predicted Answer Algebraic Expression: 5.0
+Predicted Answer Python Code: 5.0
+Generated Algebraic Template: Rachel's tree had A apples. She picked B apples from her tree. Thereafter C new apples grew on the tree. How many apples are there on the tree now?
+Generated Expression: A - B + C
+Generated Python Code: def solution(A, B, C):
+    return A - B + C
+Variable Mapping: {'A': 4.0, 'B': 2.0, 'C': 3.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Jake has 6 fewer peaches and 8 more apples than Steven. Steven has 17 peaches and 16 apples. How many more peaches than apples does Steven have?
+Correct Answer: 1.0
+Predicted Answer Total: 3.0
+Predicted Answer Algebraic Expression: 3.0
+Predicted Answer Python Code: 3.0
+Generated Algebraic Template: Jake has A fewer peaches and B more apples than Steven. Steven has C peaches and D apples. How many more peaches than apples does Steven have?
+Generated Expression: C - D - A + B
+Generated Python Code: def solution(A, B, C, D):
+    return C - D - A + B
+Variable Mapping: {'A': 6.0, 'B': 8.0, 'C': 17.0, 'D': 16.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?
+Correct Answer: 20.0
+Predicted Answer Total: 94.0
+Predicted Answer Algebraic Expression: 94.0
+Predicted Answer Python Code: 94.0
+Generated Algebraic Template: David did A more push - ups than Zachary in gym class today. If David did B push - ups How many push - ups did Zachary and David do altogether?
+Generated Expression: A + B
+Generated Python Code: def solution(A, B):
+    return A + B
+Variable Mapping: {'A': 56.0, 'B': 38.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day. How many drums of grapes would be filled in 146 days?
+Correct Answer: 35624.0
+Predicted Answer Total: 10473456.0
+Predicted Answer Algebraic Expression: 10473456.0
+Predicted Answer Python Code: 10473456.0
+Generated Algebraic Template: Being his favorite, he saved checking on the grapevines for his last stop. He was told by A of the pickers that they fill B drums of grapes per day and C drums of raspberries per day. How many drums of grapes would be filled in D days?
+Generated Expression: A * B * D
+Generated Python Code: def solution(A, B, C, D):
+    return A * B * D
+Variable Mapping: {'A': 294.0, 'B': 244.0, 'C': 47.0, 'D': 146.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: The ring toss game at the carnival made 382 dollars in the first 44 days and 374 dollars in the remaining 10 days. How much did they make in all?
+Correct Answer: 756.0
+Predicted Answer Total: 20548.0
+Predicted Answer Algebraic Expression: 20548.0
+Predicted Answer Python Code: 20548.0
+Generated Algebraic Template: The ring toss game at the carnival made A dollars in the first B days and C dollars in the remaining D days. How much did they make in all?
+Generated Expression: A * B + C * D
+Generated Python Code: def solution(A, B, C, D):
+    return A * B + C * D
+Variable Mapping: {'A': 382.0, 'B': 44.0, 'C': 374.0, 'D': 10.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: After resting they decided to go for a swim. The depth of the water is 2 times Dean's height. Dean is 8 feet shorter than Ron. If Ron stands at 14 feet How deep was the water?
+Correct Answer: 12.0
+Predicted Answer Total: 44.0
+Predicted Answer Algebraic Expression: 44.0
+Predicted Answer Python Code: 44.0
+Generated Algebraic Template: After resting they decided to go for a swim. The depth of the water is A times Dean's height. Dean is B feet shorter than Ron. If Ron stands at C feet How deep was the water?
+Generated Expression: A * (C + B)
+Generated Python Code: def solution(A, B, C):
+    return A * (C + B)
+Variable Mapping: {'A': 2.0, 'B': 8.0, 'C': 14.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: During summer break 34044 kids from Lawrence county go to camp and the other 134867 kids stay home. An additional 424944 kids from outside the county attended the camp. How many kids in total attended the camp?
+Correct Answer: 458988.0
+Predicted Answer Total: 593855.0
+Predicted Answer Algebraic Expression: 593855.0
+Predicted Answer Python Code: 593855.0
+Generated Algebraic Template: During summer break A kids from Lawrence county go to camp and the other B kids stay home. An additional C kids from outside the county attended the camp. How many kids in total attended the camp?
+Generated Expression: A + B + C
+Generated Python Code: def solution(A, B, C):
+    return A + B + C
+Variable Mapping: {'A': 34044.0, 'B': 134867.0, 'C': 424944.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: There were 21 roses in the vase. Jessica threw away 34 roses from the vase and cut some more new roses from her flower garden to put in the vase. There are now 15 roses in the vase. How many more roses did she throw away than those she cut from her garden?
+Correct Answer: 6.0
+Predicted Answer Total: 40.0
+Predicted Answer Algebraic Expression: 40.0
+Predicted Answer Python Code: 40.0
+Generated Algebraic Template: There were A roses in the vase. Jessica threw away B roses from the vase and cut some more new roses from her flower garden to put in the vase. There are now C roses in the vase. How many more roses did she throw away than those she cut from her garden?
+Generated Expression: (B - (C - A))
+Generated Python Code: def solution(A, B, C):
+    return B - (C - A)
+Variable Mapping: {'A': 21.0, 'B': 34.0, 'C': 15.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Paco had 39 sweet cookies and 6 salty cookies. He ate 23 salty cookies and 32 sweet cookies. How many more sweet cookies than salty cookies did he eat?
+Correct Answer: 9.0
+Predicted Answer Total: 42.0
+Predicted Answer Algebraic Expression: 42.0
+Predicted Answer Python Code: 42.0
+Generated Algebraic Template: Paco had A sweet cookies and B salty cookies. He ate C salty cookies and D sweet cookies. How many more sweet cookies than salty cookies did he eat?
+Generated Expression: (D - C) - (B - A)
+Generated Python Code: def solution(A, B, C, D):
+    return (D - C) - (B - A)
+Variable Mapping: {'A': 39.0, 'B': 6.0, 'C': 23.0, 'D': 32.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: David did 27 more push-ups but 7 less crunches than Zachary in gym class today. If Zachary did 5 push-ups and 17 crunches How many more crunches than push-ups did Zachary do?
+Correct Answer: 12.0
+Predicted Answer Total: -8.0
+Predicted Answer Algebraic Expression: -8.0
+Predicted Answer Python Code: -8.0
+Generated Algebraic Template: David did A more push - ups but B less crunches than Zachary in gym class today. If Zachary did C push - ups and D crunches How many more crunches than push - ups did Zachary do?
+Generated Expression: D - C - (A - B)
+Generated Python Code: def solution(A, B, C, D):
+    return D - C - (A - B)
+Variable Mapping: {'A': 27.0, 'B': 7.0, 'C': 5.0, 'D': 17.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: 5 children were riding on the bus. At the bus stop 63 children got off the bus while some more got on the bus. Then there were 14 children altogether on the bus. How many more children got on the bus than those that got off?
+Correct Answer: 9.0
+Predicted Answer Total: 72.0
+Predicted Answer Algebraic Expression: 72.0
+Predicted Answer Python Code: 72.0
+Generated Algebraic Template: A children were riding on the bus. At the bus stop B children got off the bus while some more got on the bus. Then there were C children altogether on the bus. How many more children got on the bus than those that got off?
+Generated Expression: C - (A - B)
+Generated Python Code: def solution(A, B, C):
+    return C - (A - B)
+Variable Mapping: {'A': 5.0, 'B': 63.0, 'C': 14.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Together Adam and Jackie have 6 apples. He has 4 apples more than adam and jackie together do. How many apples does he have?
+Correct Answer: 10.0
+Predicted Answer Total: 5.0
+Predicted Answer Algebraic Expression: 5.0
+Predicted Answer Python Code: 5.0
+Generated Algebraic Template: Together Adam and Jackie have A apples. He has B apples more than adam and jackie together do. How many apples does he have?
+Generated Expression: (A + B) / 2
+Generated Python Code: def solution(A, B):
+    return (A + B) / 2
+Variable Mapping: {'A': 6.0, 'B': 4.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 92 visitors came to the Buckingham palace that day. If there were 419 visitors the previous day and 103 visitors the day before that How many visited the Buckingham palace before that day?
+Correct Answer: 522.0
+Predicted Answer Total: 614.0
+Predicted Answer Algebraic Expression: 614.0
+Predicted Answer Python Code: 614.0
+Generated Algebraic Template: After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that A visitors came to the Buckingham palace that day. If there were B visitors the previous day and C visitors the day before that How many visited the Buckingham palace before that day?
+Generated Expression: A + B + C
+Generated Python Code: def solution(A, B, C):
+    return A + B + C
+Variable Mapping: {'A': 92.0, 'B': 419.0, 'C': 103.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Steven has 19 peaches. Jake has 12 fewer peaches than Steven and 72 more peaches than Jill. How many peaches does Jake have?
+Correct Answer: 7.0
+Predicted Answer Total: 79.0
+Predicted Answer Algebraic Expression: 79.0
+Predicted Answer Python Code: 79.0
+Generated Algebraic Template: Steven has A peaches. Jake has B fewer peaches than Steven and C more peaches than Jill. How many peaches does Jake have?
+Generated Expression: A - B + C
+Generated Python Code: def solution(A, B, C):
+    return A - B + C
+Variable Mapping: {'A': 19.0, 'B': 12.0, 'C': 72.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Faye was placing her pencils into rows with 5 pencils in each row. If she had 35 pencils and 7 crayons How many rows could she make?
+Correct Answer: 7.0
+Predicted Answer Total: 8.0
+Predicted Answer Algebraic Expression: 8.0
+Predicted Answer Python Code: 8.0
+Generated Algebraic Template: Faye was placing her pencils into rows with A pencils in each row. If she had B pencils and C crayons How many rows could she make?
+Generated Expression: (B + C) // A
+Generated Python Code: def solution(A, B, C):
+    total_pencils = B + C
+    return total_pencils // A
+Variable Mapping: {'A': 5.0, 'B': 35.0, 'C': 7.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Marco and his dad went strawberry picking. Together their strawberries weighed 35 pounds. Marco's strawberries weighed 13 pounds. How much more did his dad's strawberries weigh than his?
+Correct Answer: 9.0
+Predicted Answer Total: 22.0
+Predicted Answer Algebraic Expression: 22.0
+Predicted Answer Python Code: 22.0
+Generated Algebraic Template: Marco and his dad went strawberry picking. Together their strawberries weighed A pounds. Marco's strawberries weighed B pounds. How much more did his dad's strawberries weigh than his?
+Generated Expression: A - B
+Generated Python Code: def solution(A, B):
+    return A - B
+Variable Mapping: {'A': 35.0, 'B': 13.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: For the walls of the house he would use 12 large planks of wood and 10 small planks. If large planks together need 15 pieces of nails to be secured and small planks together need 5 nails. How many nails does John need for the house wall?
+Correct Answer: 20.0
+Predicted Answer Total: 230.0
+Predicted Answer Algebraic Expression: 230.0
+Predicted Answer Python Code: 230.0
+Generated Algebraic Template: For the walls of the house he would use A large planks of wood and B small planks. If large planks together need C pieces of nails to be secured and small planks together need D nails. How many nails does John need for the house wall?
+Generated Expression: (A * C) + (B * D)
+Generated Python Code: def solution(A, B, C, D):
+    return (A * C) + (B * D)
+Variable Mapping: {'A': 12.0, 'B': 10.0, 'C': 15.0, 'D': 5.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: You had 26 bags with equal number of cookies. If you had 15 candies and 52 cookies in total How many cookies does each bag have?
+Correct Answer: 2.0
+Predicted Answer Total: 1.0
+Predicted Answer Algebraic Expression: 1.0
+Predicted Answer Python Code: 1.0
+Generated Algebraic Template: You had A bags with equal number of cookies. If you had B candies and C cookies in total How many cookies does each bag have?
+Generated Expression: (C - B) // A
+Generated Python Code: def solution(A, B, C):
+    return (C - B) // A
+Variable Mapping: {'A': 26.0, 'B': 15.0, 'C': 52.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Paul got a box of some crayons for his birthday. During the school year he gave 52 crayons to his friends while he lost 535 crayons. If he only had 492 crayons left How many crayons had been lost or given away?
+Correct Answer: 587.0
+Predicted Answer Total: 95.0
+Predicted Answer Algebraic Expression: 95.0
+Predicted Answer Python Code: 95.0
+Generated Algebraic Template: Paul got a box of some crayons for his birthday. During the school year he gave A crayons to his friends while he lost B crayons. If he only had C crayons left How many crayons had been lost or given away?
+Generated Expression: A + B - C
+Generated Python Code: def solution(A, B, C):
+    return A + B - C
+Variable Mapping: {'A': 52.0, 'B': 535.0, 'C': 492.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Ed had 24 more marbles than Doug. Doug lost 27 of his marbles at the playground while Ed found 9 more marbles. How many more marbles did Ed have than Doug then?
+Correct Answer: 60.0
+Predicted Answer Total: 6.0
+Predicted Answer Algebraic Expression: 6.0
+Predicted Answer Python Code: 6.0
+Generated Algebraic Template: Ed had A more marbles than Doug. Doug lost B of his marbles at the playground while Ed found C more marbles. How many more marbles did Ed have than Doug then?
+Generated Expression: A + C - B
+Generated Python Code: def solution(A, B, C):
+    return A - B + C
+Variable Mapping: {'A': 24.0, 'B': 27.0, 'C': 9.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?
+Correct Answer: 60.0
+Predicted Answer Total: 38.0
+Predicted Answer Algebraic Expression: 38.0
+Predicted Answer Python Code: 38.0
+Generated Algebraic Template: Danny collects bottle caps and wrappers. He found A wrappers and B bottle caps at the park. Now he has C bottle caps and D wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?
+Generated Expression: A - C - (B - D)
+Generated Python Code: def solution(A, B, C, D):
+    return (A + D) - (B + C)
+Variable Mapping: {'A': 65.0, 'B': 5.0, 'C': 31.0, 'D': 9.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: After a typhoon, 2 trees in Haley's backyard died. If she had grown 11 trees initially How many more trees survived the typhoon than those that died?
+Correct Answer: 7.0
+Predicted Answer Total: 9.0
+Predicted Answer Algebraic Expression: 9.0
+Predicted Answer Python Code: 9.0
+Generated Algebraic Template: After a typhoon, A trees in Haley's backyard died. If she had grown B trees initially How many more trees survived the typhoon than those that died?
+Generated Expression: B - A
+Generated Python Code: def solution(A, B):
+    return B - A
+Variable Mapping: {'A': 2.0, 'B': 11.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Adam has 4 more apples than Jackie. Together Adam and Jackie have 14 apples. Bob has 6 apples more than Adam and Jackie together do. How many apples does Bob have?
+Correct Answer: 20.0
+Predicted Answer Total: 16.0
+Predicted Answer Algebraic Expression: 16.0
+Predicted Answer Python Code: 16.0
+Generated Algebraic Template: Adam has A more apples than Jackie. Together Adam and Jackie have B apples. Bob has C apples more than Adam and Jackie together do. How many apples does Bob have?
+Generated Expression: (B - A) + C
+Generated Python Code: def solution(A, B, C):
+    return B + C - A
+Variable Mapping: {'A': 4.0, 'B': 14.0, 'C': 6.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: During summer break 610769 kids from Lawrence county go to camp and the other 590796 kids stay home. An additional 22 kids from outside the county attended the camp. About how many kids are in Lawrence county?
+Correct Answer: 1201565.0
+Predicted Answer Total: 1201587.0
+Predicted Answer Algebraic Expression: 1201587.0
+Predicted Answer Python Code: 1201587.0
+Generated Algebraic Template: During summer break A kids from Lawrence county go to camp and the other B kids stay home. An additional C kids from outside the county attended the camp. About how many kids are in Lawrence county?
+Generated Expression: A + B + C
+Generated Python Code: def solution(A, B, C):
+    return A + B + C
+Variable Mapping: {'A': 610769.0, 'B': 590796.0, 'C': 22.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Nell collects cards. She had 239 baseball cards and 38 Ace cards. She gave some of her cards to Jeff and now has 376 Ace cards and 111 baseball cards left. How many more Ace cards than baseball cards does Nell have?
+Correct Answer: 265.0
+Predicted Answer Total: 64.0
+Predicted Answer Algebraic Expression: 64.0
+Predicted Answer Python Code: 64.0
+Generated Algebraic Template: Nell collects cards. She had A baseball cards and B Ace cards. She gave some of her cards to Jeff and now has C Ace cards and D baseball cards left. How many more Ace cards than baseball cards does Nell have?
+Generated Expression: C - D - (A - B)
+Generated Python Code: def solution(A, B, C, D):
+    return C - D - (A - B)
+Variable Mapping: {'A': 239.0, 'B': 38.0, 'C': 376.0, 'D': 111.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 705 visitors came to the Buckingham palace that day. If there were 191 visitors the previous day and 457 visitors the day before that How many more visitors visited the Buckingham palace on that day than on the previous 245 days?
+Correct Answer: 57.0
+Predicted Answer Total: -111451.0
+Predicted Answer Algebraic Expression: -111451.0
+Predicted Answer Python Code: -111451.0
+Generated Algebraic Template: After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that A visitors came to the Buckingham palace that day. If there were B visitors the previous day and C visitors the day before that How many more visitors visited the Buckingham palace on that day than on the previous D days?
+Generated Expression: A - (B + C * D)
+Generated Python Code: def solution(A, B, C, D):
+    return A - (B + C * D)
+Variable Mapping: {'A': 705.0, 'B': 191.0, 'C': 457.0, 'D': 245.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Dan has $ 4. He bought 99 candy bar for $ 3 each one costing the same amount of money. How much money is left?
+Correct Answer: 1.0
+Predicted Answer Total: -293.0
+Predicted Answer Algebraic Expression: -293.0
+Predicted Answer Python Code: -293.0
+Generated Algebraic Template: Dan has $ A He bought B candy bar for $ C each one costing the same amount of money. How much money is left?
+Generated Expression: A - (B * C)
+Generated Python Code: def solution(A, B, C):
+    return A - (B * C)
+Variable Mapping: {'A': 4.0, 'B': 99.0, 'C': 3.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Marco and his dad went strawberry picking. Together they collected strawberries that weighed 24 pounds. On the way back Marco lost 9 pounds of strawberries. Marco's strawberries now weighed 3 pounds. How much did his dad's strawberries weigh?
+Correct Answer: 12.0
+Predicted Answer Total: 30.0
+Predicted Answer Algebraic Expression: 30.0
+Predicted Answer Python Code: 30.0
+Generated Algebraic Template: Marco and his dad went strawberry picking. Together they collected strawberries that weighed A pounds. On the way back Marco lost B pounds of strawberries. Marco's strawberries now weighed C pounds. How much did his dad's strawberries weigh?
+Generated Expression: A - C + B
+Generated Python Code: def solution(A, B, C):
+    return A - C + B
+Variable Mapping: {'A': 24.0, 'B': 9.0, 'C': 3.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 2 more dollars. If she spent 6 dollars. How much more money did she receive from her dad than she did from her mom?
+Correct Answer: 3.0
+Predicted Answer Total: -3.0
+Predicted Answer Algebraic Expression: -3.0
+Predicted Answer Python Code: -3.0
+Generated Algebraic Template: For Gwen's birthday she received A dollars from her dad. Her mom gave her B more dollars. If she spent C dollars. How much more money did she receive from her dad than she did from her mom?
+Generated Expression: A - (B + C)
+Generated Python Code: def solution(A, B, C):
+    return A - (B + C)
+Variable Mapping: {'A': 5.0, 'B': 2.0, 'C': 6.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Faye was placing her pencils into rows with 22 pencils in each row. She had 6 packs of pencils each one having 14 pencils. How many pencils does she have?
+Correct Answer: 84.0
+Predicted Answer Total: 1848.0
+Predicted Answer Algebraic Expression: 1848.0
+Predicted Answer Python Code: 1848.0
+Generated Algebraic Template: Faye was placing her pencils into rows with A pencils in each row. She had B packs of pencils each one having C pencils. How many pencils does she have?
+Generated Expression: A * B * C
+Generated Python Code: def solution(A, B, C):
+    return A * B * C
+Variable Mapping: {'A': 22.0, 'B': 6.0, 'C': 14.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Haley grew 13 trees in her backyard. After a typhoon 6 died. How many more trees survived the typhoon than those that died?
+Correct Answer: 1.0
+Predicted Answer Total: 7.0
+Predicted Answer Algebraic Expression: 7.0
+Predicted Answer Python Code: 7.0
+Generated Algebraic Template: Haley grew A trees in her backyard. After a typhoon B died. How many more trees survived the typhoon than those that died?
+Generated Expression: A - B
+Generated Python Code: def solution(A, B):
+    return A - B
+Variable Mapping: {'A': 13.0, 'B': 6.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Next on his checklist is wax to stick the feathers together. If he has 557 g of wax and right now he just needs 17 g Total how many grams of wax do the feathers require?
+Correct Answer: 574.0
+Predicted Answer Total: -540.0
+Predicted Answer Algebraic Expression: -540.0
+Predicted Answer Python Code: -540.0
+Generated Algebraic Template: Next on his checklist is wax to stick the feathers together. If he has A g of wax and right now he just needs B g Total how many grams of wax do the feathers require?
+Generated Expression: B - A
+Generated Python Code: def solution(A, B):
+    return B - A
+Variable Mapping: {'A': 557.0, 'B': 17.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Baker made 8 cakes. He bought 139 new cakes and sold 145 cakes. How many more cakes did baker sell than those he bought?
+Correct Answer: 6.0
+Predicted Answer Total: 2.0
+Predicted Answer Algebraic Expression: 2.0
+Predicted Answer Python Code: 2.0
+Generated Algebraic Template: Baker made A cakes. He bought B new cakes and sold C cakes. How many more cakes did baker sell than those he bought?
+Generated Expression: A + B - C
+Generated Python Code: def solution(A, B, C):
+    return A + B - C
+Variable Mapping: {'A': 8.0, 'B': 139.0, 'C': 145.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Paco had 8 sweet cookies and 6 salty cookies. He ate 20 sweet cookies and 34 salty cookies. How many more salty cookies than sweet cookies did he eat?
+Correct Answer: 14.0
+Predicted Answer Total: 16.0
+Predicted Answer Algebraic Expression: 16.0
+Predicted Answer Python Code: 16.0
+Generated Algebraic Template: Paco had A sweet cookies and B salty cookies. He ate C sweet cookies and D salty cookies. How many more salty cookies than sweet cookies did he eat?
+Generated Expression: D - C - (B - A)
+Generated Python Code: def solution(A, B, C, D):
+    return D - C - (B - A)
+Variable Mapping: {'A': 8.0, 'B': 6.0, 'C': 20.0, 'D': 34.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 21 inches. The grasshopper jumped 25 inches farther than the frog and the mouse jumped 16 inches lesser than the frog. How much farther did the grasshopper jump than the mouse?
+Correct Answer: 41.0
+Predicted Answer Total: 5.0
+Predicted Answer Algebraic Expression: 5.0
+Predicted Answer Python Code: 5.0
+Generated Algebraic Template: The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped A inches. The grasshopper jumped B inches farther than the frog and the mouse jumped C inches lesser than the frog. How much farther did the grasshopper jump than the mouse?
+Generated Expression: A - C
+Generated Python Code: def solution(A, B, C):
+    return A - C
+Variable Mapping: {'A': 21.0, 'B': 25.0, 'C': 16.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Matthew gave equal numbers of crackers and cakes to his 4 friends. If he had 32 crackers and 98 cakes initially How many crackers did each person eat?
+Correct Answer: 8.0
+Predicted Answer Total: 32.5
+Predicted Answer Algebraic Expression: 32.5
+Predicted Answer Python Code: 32.5
+Generated Algebraic Template: Matthew gave equal numbers of crackers and cakes to his A friends. If he had B crackers and C cakes initially How many crackers did each person eat?
+Generated Expression: (B + C) / A
+Generated Python Code: def solution(A, B, C):
+    return (B + C) / A
+Variable Mapping: {'A': 4.0, 'B': 32.0, 'C': 98.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: There are 16 different books and 14 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 13 of the movies How many more books than movies are there in the ' crazy silly school ' series?
+Correct Answer: 2.0
+Predicted Answer Total: -4.0
+Predicted Answer Algebraic Expression: -4.0
+Predicted Answer Python Code: -4.0
+Generated Algebraic Template: There are A different books and B different movies in the ' crazy silly school ' series. If you read C of the books and watched D of the movies How many more books than movies are there in the ' crazy silly school ' series?
+Generated Expression: A - B - (C - D)
+Generated Python Code: def solution(A, B, C, D):
+    return A - B - (C - D)
+Variable Mapping: {'A': 16.0, 'B': 14.0, 'C': 19.0, 'D': 13.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Dave had 15 apps and 24 files on his phone. After deleting some apps and files he had 21 apps and 4 files left. How many more apps than files does he have left on the phone?
+Correct Answer: 17.0
+Predicted Answer Total: 26.0
+Predicted Answer Algebraic Expression: 26.0
+Predicted Answer Python Code: 26.0
+Generated Algebraic Template: Dave had A apps and B files on his phone. After deleting some apps and files he had C apps and D files left. How many more apps than files does he have left on the phone?
+Generated Expression: C - D - (A - B)
+Generated Python Code: def solution(A, B, C, D):
+    return (C - A) - (D - B)
+Variable Mapping: {'A': 15.0, 'B': 24.0, 'C': 21.0, 'D': 4.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Baker made 52 pastries and 84 cakes. If he sold 102 cakes and 94 pastries How many more cakes than pastries did baker make?
+Correct Answer: 32.0
+Predicted Answer Total: 40.0
+Predicted Answer Algebraic Expression: 40.0
+Predicted Answer Python Code: 40.0
+Generated Algebraic Template: Baker made A pastries and B cakes. If he sold C cakes and D pastries How many more cakes than pastries did baker make?
+Generated Expression: B - D - (A - C)
+Generated Python Code: def solution(A, B, C, D):
+    return (B - D) - (A - C)
+Variable Mapping: {'A': 52.0, 'B': 84.0, 'C': 102.0, 'D': 94.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left. How many more baseball cards than Ace cards does Nell have?
+Correct Answer: 266.0
+Predicted Answer Total: 165.0
+Predicted Answer Algebraic Expression: 165.0
+Predicted Answer Python Code: 165.0
+Generated Algebraic Template: Nell collects cards. She had A baseball cards and B Ace cards. She gave some of her cards to Jeff and now has C baseball cards and Ace cards left. How many more baseball cards than Ace cards does Nell have?
+Generated Expression: C - B - (A - C)
+Generated Python Code: def solution(A, B, C):
+    return C - B - (A - C)
+Variable Mapping: {'A': 309.0, 'B': 356.0, 'C': 415.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Danny collects bottle caps and wrappers. He found 10 bottle caps and 62 wrappers at the park. Now he has 27 bottle caps and 43 wrappers in his collection. How many more wrappers than bottle caps does danny have now?
+Correct Answer: 16.0
+Predicted Answer Total: -36.0
+Predicted Answer Algebraic Expression: -36.0
+Predicted Answer Python Code: -36.0
+Generated Algebraic Template: Danny collects bottle caps and wrappers. He found A bottle caps and B wrappers at the park. Now he has C bottle caps and D wrappers in his collection. How many more wrappers than bottle caps does danny have now?
+Generated Expression: D - C - (B - A)
+Generated Python Code: def solution(A, B, C, D):
+    return D - C - (B - A)
+Variable Mapping: {'A': 10.0, 'B': 62.0, 'C': 27.0, 'D': 43.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: 6 birds were sitting on the fence. 4 more birds and 8 more storks came to join them. How many birds are sitting on the fence?
+Correct Answer: 10.0
+Predicted Answer Total: 18.0
+Predicted Answer Algebraic Expression: 18.0
+Predicted Answer Python Code: 18.0
+Generated Algebraic Template: A birds were sitting on the fence. B more birds and C more storks came to join them. How many birds are sitting on the fence?
+Generated Expression: A + B + C
+Generated Python Code: def solution(A, B, C):
+    return A + B + C
+Variable Mapping: {'A': 6.0, 'B': 4.0, 'C': 8.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Jake has 12 fewer peaches than Steven who has 11 more peaches than Jill. Steven has 4 peaches. How many more peaches does Jill have than Jake?
+Correct Answer: 1.0
+Predicted Answer Total: -19.0
+Predicted Answer Algebraic Expression: -19.0
+Predicted Answer Python Code: -19.0
+Generated Algebraic Template: Jake has A fewer peaches than Steven who has B more peaches than Jill. Steven has C peaches. How many more peaches does Jill have than Jake?
+Generated Expression: C - A - B
+Generated Python Code: def solution(A, B, C):
+    return C - (A + B)
+Variable Mapping: {'A': 12.0, 'B': 11.0, 'C': 4.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Jack received 10 emails and 12 letters in the morning. He then received 3 emails and 44 letters in the afternoon. How many more emails did Jack receive in the morning than in the afternoon?
+Correct Answer: 7.0
+Predicted Answer Total: -25.0
+Predicted Answer Algebraic Expression: -25.0
+Predicted Answer Python Code: -25.0
+Generated Algebraic Template: Jack received A emails and B letters in the morning. He then received C emails and D letters in the afternoon. How many more emails did Jack receive in the morning than in the afternoon?
+Generated Expression: A + B - (C + D)
+Generated Python Code: def solution(A, B, C, D):
+    return A + B - (C + D)
+Variable Mapping: {'A': 10.0, 'B': 12.0, 'C': 3.0, 'D': 44.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: After resting they decided to go for a swim. The depth of the water is 5 times Ron's height. Dean is 11 feet shorter than Ron. If Ron stands at 12 feet How deep was the water?
+Correct Answer: 60.0
+Predicted Answer Total: 5.0
+Predicted Answer Algebraic Expression: 5.0
+Predicted Answer Python Code: 5.0
+Generated Algebraic Template: After resting they decided to go for a swim. The depth of the water is A times Ron's height. Dean is B feet shorter than Ron. If Ron stands at C feet How deep was the water?
+Generated Expression: A * (C - B)
+Generated Python Code: def solution(A, B, C):
+    return A * (C - B)
+Variable Mapping: {'A': 5.0, 'B': 11.0, 'C': 12.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Baker made 126 cakes and 48 pastries. If he sold 115 cakes and 81 pastries How many more cakes than pastries did baker make?
+Correct Answer: 78.0
+Predicted Answer Total: 44.0
+Predicted Answer Algebraic Expression: 44.0
+Predicted Answer Python Code: 44.0
+Generated Algebraic Template: Baker made A cakes and B pastries. If he sold C cakes and D pastries How many more cakes than pastries did baker make?
+Generated Expression: A - C - (B - D)
+Generated Python Code: def solution(A, B, C, D):
+    return (A - C) - (B - D)
+Variable Mapping: {'A': 126.0, 'B': 48.0, 'C': 115.0, 'D': 81.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Steven has 18 peaches. Jake has 12 fewer peaches than Steven who has 8 more peaches than Jill. How many peaches does Jill have?
+Correct Answer: 10.0
+Predicted Answer Total: -2.0
+Predicted Answer Algebraic Expression: -2.0
+Predicted Answer Python Code: -2.0
+Generated Algebraic Template: Steven has A peaches. Jake has B fewer peaches than Steven who has C more peaches than Jill. How many peaches does Jill have?
+Generated Expression: A - B - C
+Generated Python Code: def solution(A, B, C):
+    return A - B - C
+Variable Mapping: {'A': 18.0, 'B': 12.0, 'C': 8.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Paige was helping her mom plant flowers and together they planted 36 seeds. They put 12 seeds in each flower bed and only 58 seeds grew into flowers in each flower bed. How many flower beds did they have?
+Correct Answer: 3.0
+Predicted Answer Total: 0.0
+Predicted Answer Algebraic Expression: 0.0
+Predicted Answer Python Code: 0.0
+Generated Algebraic Template: Paige was helping her mom plant flowers and together they planted A seeds. They put B seeds in each flower bed and only C seeds grew into flowers in each flower bed. How many flower beds did they have?
+Generated Expression: A // (B * C)
+Generated Python Code: def solution(A, B, C):
+    return A // (B * C)
+Variable Mapping: {'A': 36.0, 'B': 12.0, 'C': 58.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: An industrial machine can make 6 shirts a minute. It worked for 5 minutes yesterday and for 12 minutes today. How many shirts did machine make today?
+Correct Answer: 72.0
+Predicted Answer Total: 102.0
+Predicted Answer Algebraic Expression: 102.0
+Predicted Answer Python Code: 102.0
+Generated Algebraic Template: An industrial machine can make A shirts a minute. It worked for B minutes yesterday and for C minutes today. How many shirts did machine make today?
+Generated Expression: (A * C) + (A * B)
+Generated Python Code: def solution(A, B, C):
+    return A * (B + C)
+Variable Mapping: {'A': 6.0, 'B': 5.0, 'C': 12.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Jake has 18 fewer peaches than Steven who has 13 more peaches than Jill. Steven has 19 peaches. How many peaches does Jill have?
+Correct Answer: 6.0
+Predicted Answer Total: -12.0
+Predicted Answer Algebraic Expression: -12.0
+Predicted Answer Python Code: -12.0
+Generated Algebraic Template: Jake has A fewer peaches than Steven who has B more peaches than Jill. Steven has C peaches. How many peaches does Jill have?
+Generated Expression: C - A - B
+Generated Python Code: def solution(A, B, C):
+    return C - A - B
+Variable Mapping: {'A': 18.0, 'B': 13.0, 'C': 19.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Marco and his dad went strawberry picking. Marco's strawberries weighed 10 pounds. If together their strawberries weighed 26 pounds. How much more did his dad's strawberries weigh than his?
+Correct Answer: 6.0
+Predicted Answer Total: 16.0
+Predicted Answer Algebraic Expression: 16.0
+Predicted Answer Python Code: 16.0
+Generated Algebraic Template: Marco and his dad went strawberry picking. Marco's strawberries weighed A pounds. If together their strawberries weighed B pounds. How much more did his dad's strawberries weigh than his?
+Generated Expression: B - A
+Generated Python Code: def solution(A, B):
+    return B - A
+Variable Mapping: {'A': 10.0, 'B': 26.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: 3 birds were sitting on the fence. 6 more storks and 2 more birds came to join them. How many more storks than birds are sitting on the fence?
+Correct Answer: 1.0
+Predicted Answer Total: 4.0
+Predicted Answer Algebraic Expression: 4.0
+Predicted Answer Python Code: 4.0
+Generated Algebraic Template: A birds were sitting on the fence. B more storks and C more birds came to join them. How many more storks than birds are sitting on the fence?
+Generated Expression: B - C
+Generated Python Code: def solution(A, B, C):
+    return B - C
+Variable Mapping: {'A': 3.0, 'B': 6.0, 'C': 2.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Baker made 134 pastries and 11 cakes. If he sold 140 cakes and 92 pastries How many more pastries than cakes did baker make?
+Correct Answer: 123.0
+Predicted Answer Total: 75.0
+Predicted Answer Algebraic Expression: 75.0
+Predicted Answer Python Code: 75.0
+Generated Algebraic Template: Baker made A pastries and B cakes. If he sold C cakes and D pastries How many more pastries than cakes did baker make?
+Generated Expression: A + D - (B + C)
+Generated Python Code: def solution(A, B, C, D):
+    return (A + D) - (B + C)
+Variable Mapping: {'A': 134.0, 'B': 11.0, 'C': 140.0, 'D': 92.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Ed had 5 more marbles than Doug. Doug lost 3 of his marbles at the playground. If Ed had 27 marbles How many marbles did Doug have initially?
+Correct Answer: 22.0
+Predicted Answer Total: 19.0
+Predicted Answer Algebraic Expression: 19.0
+Predicted Answer Python Code: 19.0
+Generated Algebraic Template: Ed had A more marbles than Doug. Doug lost B of his marbles at the playground. If Ed had C marbles How many marbles did Doug have initially?
+Generated Expression: C - A - B
+Generated Python Code: def solution(A, B, C):
+    return C - A - B
+Variable Mapping: {'A': 5.0, 'B': 3.0, 'C': 27.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Rachel has 4 apple trees. She picked 7 apples from each of her trees. Now the trees have a total 29 apples still on them. How many apples did Rachel pick in all?
+Correct Answer: 28.0
+Predicted Answer Total: -1.0
+Predicted Answer Algebraic Expression: -1.0
+Predicted Answer Python Code: -1.0
+Generated Algebraic Template: Rachel has A apple trees. She picked B apples from each of her trees. Now the trees have a total C apples still on them. How many apples did Rachel pick in all?
+Generated Expression: (A * B) - C
+Generated Python Code: def solution(A, B, C):
+    return (A * B) - C
+Variable Mapping: {'A': 4.0, 'B': 7.0, 'C': 29.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Jake has 8 fewer peaches and 10 more apples than Steven. Steven has 11 apples and 18 peaches. How many more peaches than apples does Steven have?
+Correct Answer: 7.0
+Predicted Answer Total: 5.0
+Predicted Answer Algebraic Expression: 5.0
+Predicted Answer Python Code: 5.0
+Generated Algebraic Template: Jake has A fewer peaches and B more apples than Steven. Steven has C apples and D peaches. How many more peaches than apples does Steven have?
+Generated Expression: (D - C) - (B - A)
+Generated Python Code: def solution(A, B, C, D):
+    return D - (C + B - A)
+Variable Mapping: {'A': 8.0, 'B': 10.0, 'C': 11.0, 'D': 18.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: A waiter had 8 customers. After some left he still had 5 customers. Then he got 99 new customers How many customers left?
+Correct Answer: 3.0
+Predicted Answer Total: 102.0
+Predicted Answer Algebraic Expression: 102.0
+Predicted Answer Python Code: 102.0
+Generated Algebraic Template: A waiter had A customers. After some left he still had B customers. Then he got C new customers How many customers left?
+Generated Expression: A - B + C
+Generated Python Code: def solution(A, B, C):
+    return A - B + C
+Variable Mapping: {'A': 8.0, 'B': 5.0, 'C': 99.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Dave had 11 apps and 3 files on his phone. After deleting some apps and files he had 24 files and 2 apps left. How many more files than apps does he have left on the phone?
+Correct Answer: 22.0
+Predicted Answer Total: 14.0
+Predicted Answer Algebraic Expression: 14.0
+Predicted Answer Python Code: 14.0
+Generated Algebraic Template: Dave had A apps and B files on his phone. After deleting some apps and files he had C files and D apps left. How many more files than apps does he have left on the phone?
+Generated Expression: C - D - (A - B)
+Generated Python Code: def solution(A, B, C, D):
+    return (C - D) - (A - B)
+Variable Mapping: {'A': 11.0, 'B': 3.0, 'C': 24.0, 'D': 2.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: If the cave is 919 feet deep and they need to travel 1307 feet How far is the end of the cave?
+Correct Answer: 2226.0
+Predicted Answer Total: -388.0
+Predicted Answer Algebraic Expression: -388.0
+Predicted Answer Python Code: -388.0
+Generated Algebraic Template: If the cave is A feet deep and they need to travel B feet How far is the end of the cave?
+Generated Expression: A - B
+Generated Python Code: def solution(A, B):
+    return A - B
+Variable Mapping: {'A': 919.0, 'B': 1307.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Winter is almost here and most animals are migrating to warmer countries. There were 87 bird families living near the mountain. If 7 bird families flew away for winter How many more bird families stayed behind than those that flew away for the winter?
+Correct Answer: 73.0
+Predicted Answer Total: 80.0
+Predicted Answer Algebraic Expression: 80.0
+Predicted Answer Python Code: 80.0
+Generated Algebraic Template: Winter is almost here and most animals are migrating to warmer countries. There were A bird families living near the mountain. If B bird families flew away for winter How many more bird families stayed behind than those that flew away for the winter?
+Generated Expression: A - B
+Generated Python Code: def solution(A, B):
+    return A - B
+Variable Mapping: {'A': 87.0, 'B': 7.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: A waiter had 11 customers. After some left he still had 3 customers. How many more customers left than those that stayed behind?
+Correct Answer: 5.0
+Predicted Answer Total: 8.0
+Predicted Answer Algebraic Expression: 8.0
+Predicted Answer Python Code: 8.0
+Generated Algebraic Template: A waiter had A customers. After some left he still had B customers. How many more customers left than those that stayed behind?
+Generated Expression: A - B
+Generated Python Code: def solution(A, B):
+    return A - B
+Variable Mapping: {'A': 11.0, 'B': 3.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Jake has 7 fewer peaches than Steven who has 14 more peaches than Jill. Steven has 15 peaches. How many peaches does Jake have?
+Correct Answer: 8.0
+Predicted Answer Total: -6.0
+Predicted Answer Algebraic Expression: -6.0
+Predicted Answer Python Code: -6.0
+Generated Algebraic Template: Jake has A fewer peaches than Steven who has B more peaches than Jill. Steven has C peaches. How many peaches does Jake have?
+Generated Expression: C - A - B
+Generated Python Code: def solution(A, B, C):
+    return C - B - A
+Variable Mapping: {'A': 7.0, 'B': 14.0, 'C': 15.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Allan brought 5 balloons and Jake brought 4 balloons to the park. Allan then bought 3 more balloons at the park. How many balloons did Allan bring to the park?
+Correct Answer: 8.0
+Predicted Answer Total: 12.0
+Predicted Answer Algebraic Expression: 12.0
+Predicted Answer Python Code: 12.0
+Generated Algebraic Template: Allan brought A balloons and Jake brought B balloons to the park. Allan then bought C more balloons at the park. How many balloons did Allan bring to the park?
+Generated Expression: A + B + C
+Generated Python Code: def solution(A, B, C):
+    return A + B + C
+Variable Mapping: {'A': 5.0, 'B': 4.0, 'C': 3.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Mary is baking a cake. The recipe calls for 12 cups of sugar and 14 cups of flour. She already put in 10 cups of sugar. How many more cups of flour than cups of sugar does she need to add now?
+Correct Answer: 12.0
+Predicted Answer Total: 4.0
+Predicted Answer Algebraic Expression: 4.0
+Predicted Answer Python Code: 4.0
+Generated Algebraic Template: Mary is baking a cake. The recipe calls for A cups of sugar and B cups of flour. She already put in C cups of sugar. How many more cups of flour than cups of sugar does she need to add now?
+Generated Expression: B - C
+Generated Python Code: def solution(A, B, C):
+    return B - C
+Variable Mapping: {'A': 12.0, 'B': 14.0, 'C': 10.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Rebecca wants to split a collection of eggs into 4 groups. Rebecca has 8 eggs and 6 marbles. How many eggs will each group have?
+Correct Answer: 2.0
+Predicted Answer Total: 0.0
+Predicted Answer Algebraic Expression: 0.0
+Predicted Answer Python Code: 0.0
+Generated Algebraic Template: Rebecca wants to split a collection of eggs into A groups. Rebecca has B eggs and C marbles. How many eggs will each group have?
+Generated Expression: (B - C) // A
+Generated Python Code: def solution(B, C, A):
+    return (B - C) // A
+Variable Mapping: {'A': 4.0, 'B': 8.0, 'C': 6.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: The school is planning a field trip. The school has 84 classrooms. 95 school buses are fully filled with 118 seats on each school bus. How many students are in the school?
+Correct Answer: 11210.0
+Predicted Answer Total: 941640.0
+Predicted Answer Algebraic Expression: 941640.0
+Predicted Answer Python Code: 941640.0
+Generated Algebraic Template: The school is planning a field trip. The school has A classrooms. B school buses are fully filled with C seats on each school bus. How many students are in the school?
+Generated Expression: A * B * C
+Generated Python Code: def solution(A, B, C):
+    return A * B * C
+Variable Mapping: {'A': 84.0, 'B': 95.0, 'C': 118.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: There are 17 different movies and 11 different books in the ' crazy silly school ' series. If you read 13 of the books and watched 63 of the movies How many more movies than books are there in the ' crazy silly school ' series?
+Correct Answer: 6.0
+Predicted Answer Total: 56.0
+Predicted Answer Algebraic Expression: 56.0
+Predicted Answer Python Code: 56.0
+Generated Algebraic Template: There are A different movies and B different books in the ' crazy silly school ' series. If you read C of the books and watched D of the movies How many more movies than books are there in the ' crazy silly school ' series?
+Generated Expression: D - C - B + A
+Generated Python Code: def solution(A, B, C, D):
+    return D - C - (B - A)
+Variable Mapping: {'A': 17.0, 'B': 11.0, 'C': 13.0, 'D': 63.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Edward spent $ 17. Then he received $ 10 from his friend. Now he has $ 7. How much did Edward have before he spent his money?
+Correct Answer: 14.0
+Predicted Answer Total: 0.0
+Predicted Answer Algebraic Expression: 0.0
+Predicted Answer Python Code: 0.0
+Generated Algebraic Template: Edward spent $ A Then he received $ B from his friend. Now he has $ C How much did Edward have before he spent his money?
+Generated Expression: C - (A - B)
+Generated Python Code: def solution(A, B, C):
+    return C - A + B
+Variable Mapping: {'A': 17.0, 'B': 10.0, 'C': 7.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: There are 14 different movies and 15 different books in the ' crazy silly school ' series. If you read 11 of the books and watched 40 of the movies How many more books than movies are there in the ' crazy silly school ' series?
+Correct Answer: 1.0
+Predicted Answer Total: -30.0
+Predicted Answer Algebraic Expression: -30.0
+Predicted Answer Python Code: -30.0
+Generated Algebraic Template: There are A different movies and B different books in the ' crazy silly school ' series. If you read C of the books and watched D of the movies How many more books than movies are there in the ' crazy silly school ' series?
+Generated Expression: C - D + A - B
+Generated Python Code: def solution(A, B, C, D):
+    return (A - B) + (C - D)
+Variable Mapping: {'A': 14.0, 'B': 15.0, 'C': 11.0, 'D': 40.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: An industrial machine made 9 shirts yesterday and 8 shirts today. It can make 2 shirts a minute. How many minutes did the machine work today?
+Correct Answer: 4.0
+Predicted Answer Total: -0.5
+Predicted Answer Algebraic Expression: -0.5
+Predicted Answer Python Code: -0.5
+Generated Algebraic Template: An industrial machine made A shirts yesterday and B shirts today. It can make C shirts a minute. How many minutes did the machine work today?
+Generated Expression: (B - A) / C
+Generated Python Code: def solution(A, B, C):
+    return (B - A) / C
+Variable Mapping: {'A': 9.0, 'B': 8.0, 'C': 2.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 512 visitors came to the Buckingham palace that day. If there were 471 visitors the previous day and 808 visitors the day before that How many visited the Buckingham palace within the past 89 days?
+Correct Answer: 1791.0
+Predicted Answer Total: 1877.0
+Predicted Answer Algebraic Expression: 1877.0
+Predicted Answer Python Code: 1877.0
+Generated Algebraic Template: After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that A visitors came to the Buckingham palace that day. If there were B visitors the previous day and C visitors the day before that How many visited the Buckingham palace within the past D days?
+Generated Expression: A + B + C + (D-3)
+Generated Python Code: def solution(A, B, C, D):
+    return A + B + C + (D - 3)
+Variable Mapping: {'A': 512.0, 'B': 471.0, 'C': 808.0, 'D': 89.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Dan has $ 3. For a total of $ 4 he bought 2 candy bar each one costing the same amount of money. How much did each candy bar cost?
+Correct Answer: 2.0
+Predicted Answer Total: 0.5
+Predicted Answer Algebraic Expression: 0.5
+Predicted Answer Python Code: 0.5
+Generated Algebraic Template: Dan has $ A For a total of $ B he bought C candy bar each one costing the same amount of money. How much did each candy bar cost?
+Generated Expression: (B - A) / C
+Generated Python Code: def solution(A, B, C):
+    return (B - A) / C
+Variable Mapping: {'A': 3.0, 'B': 4.0, 'C': 2.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Lewis earns $ 403 every week during the 233 weeks of harvest. If he has to pay $ 49 rent every week How much money does he earn during harvest season?
+Correct Answer: 93899.0
+Predicted Answer Total: 82482.0
+Predicted Answer Algebraic Expression: 82482.0
+Predicted Answer Python Code: 82482.0
+Generated Algebraic Template: Lewis earns $ A every week during the B weeks of harvest. If he has to pay $ C rent every week How much money does he earn during harvest season?
+Generated Expression: A * B - C * B
+Generated Python Code: def solution(A, B, C):
+    return A * B - C * B
+Variable Mapping: {'A': 403.0, 'B': 233.0, 'C': 49.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Zachary did 15 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 9 push-ups less than David. How many more push-ups did Zachary do than John?
+Correct Answer: 30.0
+Predicted Answer Total: -15.0
+Predicted Answer Algebraic Expression: -15.0
+Predicted Answer Python Code: -15.0
+Generated Algebraic Template: Zachary did A push - ups in gym class today. David did B more push - ups than Zachary. John did C push - ups less than David. How many more push - ups did Zachary do than John?
+Generated Expression: A - (B - C)
+Generated Python Code: def solution(A, B, C):
+    return A - (B - C)
+Variable Mapping: {'A': 15.0, 'B': 39.0, 'C': 9.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: There were 13 roses and 84 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 91 orchids and 14 roses in the vase. How many roses did she cut?
+Correct Answer: 1.0
+Predicted Answer Total: -70.0
+Predicted Answer Algebraic Expression: -70.0
+Predicted Answer Python Code: -70.0
+Generated Algebraic Template: There were A roses and B orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now C orchids and D roses in the vase. How many roses did she cut?
+Generated Expression: D - B
+Generated Python Code: def solution(A, B, C, D):
+    return D - B
+Variable Mapping: {'A': 13.0, 'B': 84.0, 'C': 91.0, 'D': 14.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 31 cookies yesterday 270 cookies this morning and 419 cookies the day before yesterday. How many cookies did Helen bake till last night?
+Correct Answer: 450.0
+Predicted Answer Total: 720.0
+Predicted Answer Algebraic Expression: 720.0
+Predicted Answer Python Code: 720.0
+Generated Algebraic Template: Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked A cookies yesterday B cookies this morning and C cookies the day before yesterday. How many cookies did Helen bake till last night?
+Generated Expression: A + B + C
+Generated Python Code: def solution(A, B, C):
+    return A + B + C
+Variable Mapping: {'A': 31.0, 'B': 270.0, 'C': 419.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: 6 storks and 2 birds were sitting on the fence. 3 more birds came to join them. How many more storks than birds are sitting on the fence?
+Correct Answer: 1.0
+Predicted Answer Total: 7.0
+Predicted Answer Algebraic Expression: 7.0
+Predicted Answer Python Code: 7.0
+Generated Algebraic Template: A storks and B birds were sitting on the fence. C more birds came to join them. How many more storks than birds are sitting on the fence?
+Generated Expression: A - B + C
+Generated Python Code: def solution(A, B, C):
+    return A + C - B
+Variable Mapping: {'A': 6.0, 'B': 2.0, 'C': 3.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: The school is planning a field trip. The school has 21 classrooms. There are 98 students in the school and 7 school buses. If all buses are full How many seats are in each bus?
+Correct Answer: 14.0
+Predicted Answer Total: 0.0
+Predicted Answer Algebraic Expression: 0.0
+Predicted Answer Python Code: 0.0
+Generated Algebraic Template: The school is planning a field trip. The school has A classrooms. There are B students in the school and C school buses. If all buses are full How many seats are in each bus?
+Generated Expression: (B // C) // A
+Generated Python Code: def solution(A, B, C):
+    return (B // C) // A
+Variable Mapping: {'A': 21.0, 'B': 98.0, 'C': 7.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Adam could fit 10 action figures on each shelf in his room. His room has could hold 8 action figures. How many total shelves did his room have?
+Correct Answer: 80.0
+Predicted Answer Total: 0.0
+Predicted Answer Algebraic Expression: 0.0
+Predicted Answer Python Code: 0.0
+Generated Algebraic Template: Adam could fit A action figures on each shelf in his room. His room has could hold B action figures. How many total shelves did his room have?
+Generated Expression: B // A
+Generated Python Code: def solution(A, B):
+    return B // A
+Variable Mapping: {'A': 10.0, 'B': 8.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 14 inches. The mouse jumped 16 inches lesser than the frog who jumped 37 inches farther than the grasshopper. How much farther did the mouse jump than the grasshopper?
+Correct Answer: 21.0
+Predicted Answer Total: 7.0
+Predicted Answer Algebraic Expression: 7.0
+Predicted Answer Python Code: 7.0
+Generated Algebraic Template: The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped A inches. The mouse jumped B inches lesser than the frog who jumped C inches farther than the grasshopper. How much farther did the mouse jump than the grasshopper?
+Generated Expression: C - B - A
+Generated Python Code: def solution(A, B, C):
+    return (C - A) - B
+Variable Mapping: {'A': 14.0, 'B': 16.0, 'C': 37.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: There were 5 roses and 3 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 12 roses and 2 orchids in the vase. How many more roses than orchids are there in the vase now?
+Correct Answer: 10.0
+Predicted Answer Total: 8.0
+Predicted Answer Algebraic Expression: 8.0
+Predicted Answer Python Code: 8.0
+Generated Algebraic Template: There were A roses and B orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now C roses and D orchids in the vase. How many more roses than orchids are there in the vase now?
+Generated Expression: C - D - (A - B)
+Generated Python Code: def solution(A, B, C, D):
+    return (C - A) - (D - B)
+Variable Mapping: {'A': 5.0, 'B': 3.0, 'C': 12.0, 'D': 2.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an atm. After she visited a supermarket there were 49 dollars left. How much more money did she collect at the atm than she spent at the supermarket?
+Correct Answer: 46.0
+Predicted Answer Total: 95.0
+Predicted Answer Algebraic Expression: 95.0
+Predicted Answer Python Code: 95.0
+Generated Algebraic Template: There were A dollars in Olivia's wallet. She collected B more dollars from an atm. After she visited a supermarket there were C dollars left. How much more money did she collect at the atm than she spent at the supermarket?
+Generated Expression: (B - (A - C))
+Generated Python Code: def solution(A, B, C):
+    return B - (A - C)
+Variable Mapping: {'A': 3.0, 'B': 49.0, 'C': 49.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Danny collects bottle caps and wrappers. He found 71 bottle caps and 24 wrappers at the park. Now he has 28 bottle caps and 16 wrappers in his collection. How many more bottle caps than wrappers does danny have now?
+Correct Answer: 12.0
+Predicted Answer Total: -35.0
+Predicted Answer Algebraic Expression: -35.0
+Predicted Answer Python Code: -35.0
+Generated Algebraic Template: Danny collects bottle caps and wrappers. He found A bottle caps and B wrappers at the park. Now he has C bottle caps and D wrappers in his collection. How many more bottle caps than wrappers does danny have now?
+Generated Expression: C - D - (A - B)
+Generated Python Code: def solution(A, B, C, D):
+    return C - D - (A - B)
+Variable Mapping: {'A': 71.0, 'B': 24.0, 'C': 28.0, 'D': 16.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Emily is making bead necklaces for her 44 friends. She made 26 necklaces and each necklace takes 2 beads. How many beads did Emily have?
+Correct Answer: 52.0
+Predicted Answer Total: 2288.0
+Predicted Answer Algebraic Expression: 2288.0
+Predicted Answer Python Code: 2288.0
+Generated Algebraic Template: Emily is making bead necklaces for her A friends. She made B necklaces and each necklace takes C beads. How many beads did Emily have?
+Generated Expression: A * B * C
+Generated Python Code: def solution(A, B, C):
+    return A * B * C
+Variable Mapping: {'A': 44.0, 'B': 26.0, 'C': 2.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Dave had 21 apps on his phone. He added 89 new apps. After deleting some he had 24 left. How many more apps did he add than he deleted?
+Correct Answer: 3.0
+Predicted Answer Total: 92.0
+Predicted Answer Algebraic Expression: 92.0
+Predicted Answer Python Code: 92.0
+Generated Algebraic Template: Dave had A apps on his phone. He added B new apps. After deleting some he had C left. How many more apps did he add than he deleted?
+Generated Expression: B - (A - C)
+Generated Python Code: def solution(A, B, C):
+    return B - (A - C)
+Variable Mapping: {'A': 21.0, 'B': 89.0, 'C': 24.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Allan brought 2 balloons and Jake brought 6 balloons to the park. Allan then bought 3 more balloons at the park. How many more balloons did Jake have than Allan in the park?
+Correct Answer: 1.0
+Predicted Answer Total: 7.0
+Predicted Answer Algebraic Expression: 7.0
+Predicted Answer Python Code: 7.0
+Generated Algebraic Template: Allan brought A balloons and Jake brought B balloons to the park. Allan then bought C more balloons at the park. How many more balloons did Jake have than Allan in the park?
+Generated Expression: B + C - A
+Generated Python Code: def solution(A, B, C):
+    return B + C - A
+Variable Mapping: {'A': 2.0, 'B': 6.0, 'C': 3.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: A grocery store had 30 bottles of regular soda, 8 bottles of diet soda and 41 apples. How many bottles did they have total?
+Correct Answer: 38.0
+Predicted Answer Total: 79.0
+Predicted Answer Algebraic Expression: 79.0
+Predicted Answer Python Code: 79.0
+Generated Algebraic Template: A grocery store had A bottles of regular soda, B bottles of diet soda and C apples. How many bottles did they have total?
+Generated Expression: A + B + C
+Generated Python Code: def solution(A, B, C):
+    return A + B + C
+Variable Mapping: {'A': 30.0, 'B': 8.0, 'C': 41.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 9 inches. The mouse jumped 3 inches lesser than the frog who jumped 33 inches farther than the grasshopper. How far did the mouse jump?
+Correct Answer: 39.0
+Predicted Answer Total: -27.0
+Predicted Answer Algebraic Expression: -27.0
+Predicted Answer Python Code: -27.0
+Generated Algebraic Template: The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped A inches. The mouse jumped B inches lesser than the frog who jumped C inches farther than the grasshopper. How far did the mouse jump?
+Generated Expression: A - B - C
+Generated Python Code: def solution(A, B, C):
+    return A - B - C
+Variable Mapping: {'A': 9.0, 'B': 3.0, 'C': 33.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: 36 children were riding on the bus. At the bus stop 68 children got off the bus while some more got on the bus. Then there were 12 children altogether on the bus. How many more children got off the bus than those that got on?
+Correct Answer: 24.0
+Predicted Answer Total: 92.0
+Predicted Answer Algebraic Expression: 92.0
+Predicted Answer Python Code: 92.0
+Generated Algebraic Template: A children were riding on the bus. At the bus stop B children got off the bus while some more got on the bus. Then there were C children altogether on the bus. How many more children got off the bus than those that got on?
+Generated Expression: B - (C - A)
+Generated Python Code: def solution(A, B, C):
+    return B - (C - A)
+Variable Mapping: {'A': 36.0, 'B': 68.0, 'C': 12.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?
+Correct Answer: 332.0
+Predicted Answer Total: 0.003012048192771
+Predicted Answer Algebraic Expression: 0.003012048192771
+Predicted Answer Python Code: 0.0030120481927710845
+Generated Algebraic Template: Frank was reading through his favorite book. The book had A chapters each with B pages. It took frank C days to finish the book. How many chapters did he read per day?
+Generated Expression: A / C
+Generated Python Code: def solution(A, B, C):
+    return A / C
+Variable Mapping: {'A': 2.0, 'B': 405.0, 'C': 664.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Jake has 3 fewer peaches and 4 more apples than Steven. Steven has 19 apples and 15 peaches. How many more apples than peaches does Steven have?
+Correct Answer: 4.0
+Predicted Answer Total: 5.0
+Predicted Answer Algebraic Expression: 5.0
+Predicted Answer Python Code: 5.0
+Generated Algebraic Template: Jake has A fewer peaches and B more apples than Steven. Steven has C apples and D peaches. How many more apples than peaches does Steven have?
+Generated Expression: (C + B) - (D + A)
+Generated Python Code: def solution(A, B, C, D):
+    return (C + B) - (D + A)
+Variable Mapping: {'A': 3.0, 'B': 4.0, 'C': 19.0, 'D': 15.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Paige was helping her mom plant flowers and together they planted 55 seeds. They put 15 seeds in each flower bed and only 60 seeds grew into flowers in each flower bed. How many flowers did they grow?
+Correct Answer: 220.0
+Predicted Answer Total: 180.0
+Predicted Answer Algebraic Expression: 180.0
+Predicted Answer Python Code: 180.0
+Generated Algebraic Template: Paige was helping her mom plant flowers and together they planted A seeds. They put B seeds in each flower bed and only C seeds grew into flowers in each flower bed. How many flowers did they grow?
+Generated Expression: (A // B) * C
+Generated Python Code: def solution(A, B, C):
+    return (A // B) * C
+Variable Mapping: {'A': 55.0, 'B': 15.0, 'C': 60.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Dave had 24 apps and 9 files on his phone. After deleting some apps and files he had 5 files and 12 apps left. How many more apps than files does he have left on the phone?
+Correct Answer: 7.0
+Predicted Answer Total: 22.0
+Predicted Answer Algebraic Expression: 22.0
+Predicted Answer Python Code: 22.0
+Generated Algebraic Template: Dave had A apps and B files on his phone. After deleting some apps and files he had C files and D apps left. How many more apps than files does he have left on the phone?
+Generated Expression: D - C - (B - A)
+Generated Python Code: def solution(A, B, C, D):
+    return (D - C) - (B - A)
+Variable Mapping: {'A': 24.0, 'B': 9.0, 'C': 5.0, 'D': 12.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: 16 people can ride the Ferris wheel in paradise park at the same time. If the Ferris wheel has 4 seats How many people can each seat hold?
+Correct Answer: 4.0
+Predicted Answer Total: 0.0
+Predicted Answer Algebraic Expression: 0.0
+Predicted Answer Python Code: 0.0
+Generated Algebraic Template: A people can ride the Ferris wheel in paradise park at the same time. If the Ferris wheel has B seats How many people can each seat hold?
+Generated Expression: B // A
+Generated Python Code: def solution(A, B):
+    return B // A
+Variable Mapping: {'A': 16.0, 'B': 4.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: There were 106 dollars in Olivia's wallet. After she visited a supermarket and a showroom there were 26 dollars left. If she spent 49 dollars at the showroom How much did she spend at the supermarket?
+Correct Answer: 31.0
+Predicted Answer Total: 129.0
+Predicted Answer Algebraic Expression: 129.0
+Predicted Answer Python Code: 129.0
+Generated Algebraic Template: There were A dollars in Olivia's wallet. After she visited a supermarket and a showroom there were B dollars left. If she spent C dollars at the showroom How much did she spend at the supermarket?
+Generated Expression: (A - B + C)
+Generated Python Code: def solution(A, B, C):
+    return A - B + C
+Variable Mapping: {'A': 106.0, 'B': 26.0, 'C': 49.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: The grasshopper and the frog had a jumping contest. The grasshopper jumped 35 inches. The grasshopper jumped 4 inches farther than the frog. How much did they jump altogether?
+Correct Answer: 66.0
+Predicted Answer Total: 74.0
+Predicted Answer Algebraic Expression: 74.0
+Predicted Answer Python Code: 74.0
+Generated Algebraic Template: The grasshopper and the frog had a jumping contest. The grasshopper jumped A inches. The grasshopper jumped B inches farther than the frog. How much did they jump altogether?
+Generated Expression: A + (A + B)
+Generated Python Code: def solution(A, B):
+    return A + (A + B)
+Variable Mapping: {'A': 35.0, 'B': 4.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+
+Question: Together Adam and Jackie have 12 apples. He has 9 apples more than Adam and Jackie together do. Adam has 8 more apples than Jackie. How many apples does He have?
+Correct Answer: 21.0
+Predicted Answer Total: 14.5
+Predicted Answer Algebraic Expression: 14.5
+Predicted Answer Python Code: 14.5
+Generated Algebraic Template: Together Adam and Jackie have A apples. He has B apples more than Adam and Jackie together do. Adam has C more apples than Jackie. How many apples does He have?
+Generated Expression: (A + B + C) / 2
+Generated Python Code: def solution(A, B, C):
+    return (A + B + C) / 2
+Variable Mapping: {'A': 12.0, 'B': 9.0, 'C': 8.0}
+Error: No
+Error Message: nan
+--------------------------------------------------------------------------------
+
+

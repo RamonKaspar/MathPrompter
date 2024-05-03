@@ -1,17 +1,33 @@
 # Evaluation of MathPrompter on SVAMP Dataset
 
-This directory contains the materials used for evaluating the MathPrompter application on the SVAMP dataset. The evaluation aims to assess the accuracy of MathPrompter in interpreting and solving arithmetic word problems.
+This directory contains the materials used for evaluating the MathPrompter application on the SVAMP dataset. The evaluation aims to assess the accuracy and hallucination rate of MathPrompter in interpreting and solving arithmetic word problems.
 
 ## Contents
 
-- `SVAMP.json`: The dataset used for evaluation.
-- `evaluation_SVAMP.py`: Python script that runs the evaluation and outputs the accuracy.
+- `SVAMP.json`: The dataset used for evaluation, containing arithmetic word problems.
+- `evaluation_SVAMP.py`: Python script that performs the evaluation and outputs accuracy and hallucination metrics.
+- `plot.py`: Script to plot the results of the evaluation, comparing the performance metrics across different methodologies.
+- `get_hallucinations.py`: Utility script to extract and save cases where MathPrompter provided incorrect but confident predictions (hallucinations).
 
 ## API Usage
 
-For the purposes of this evaluation, Google Gemini Pro API was utilized due to its accessibility and cost-effectiveness as a free alternative compared to other APIs like OpenAI GPT.
+For the purposes of this evaluation, Azure OpenAI API with GPT-3.5-Turbo was utilized due to its accessibility and cost-effectiveness.
 
-## Running the Evaluation
+## Results
+
+To manage costs effectively, each prompt was processed exactly once, an approach we term as `self_consistency=1`. Given that each problem is addressed in a single model run, we set the `temperature` parameter to 0. This ensures that the model response is deterministic, providing the most probable and stable output for each input without the variability that higher temperature settings would introduce.
+
+The evaluation of MathPrompter on the SVAMP dataset achieved an accuracy of **63.9%**.
+
+![alt text](plots/individual_metrics.png)
+
+The evaluation of MathPrompter using the SVAMP dataset reveals distinct strengths across different methodologies. The comprehensive approach (MathPrompter Total) demonstrates respectable accuracy (63.9%) with a low hallucination rate (10.9%), indicating reliable problem-solving capabilities. Specialized methods such as Algebraic Only and Python Only exhibit higher accuracy rates of 77.3% and 70.5% respectively but also show increased hallucination rates. This points to their heightened sensitivity and potential to overfit specific problem types.
+
+For a comparative analysis of how our results hold up against current state-of-the-art methodologies, you can visit the [PaperWithCode Leaderboard for the SVAMP benchmark](https://paperswithcode.com/sota/math-word-problem-solving-on-svamp).
+
+Notably, when considering only models that operate without the use of additional training data, our implementation ranks 4th.
+
+## Running the Evaluation on your own
 
 To run the evaluation, execute the following command:
 
@@ -19,13 +35,13 @@ To run the evaluation, execute the following command:
 python evaluation_SVAMP.py
 ```
 
-## Results
+Then run
 
-The evaluation of MathPrompter on the SVAMP dataset achieved an accuracy of **74.50%**.
+```bash
+python plot.py
+```
 
-For a comparative analysis of how our results hold up against current state-of-the-art methodologies, you can visit the [PaperWithCode Leaderboard for the SVAMP benchmark](https://paperswithcode.com/sota/math-word-problem-solving-on-svamp).
-
-Notably, when considering only models that operate without the use of additional training data, our implementation ranks 3rd.
+to generate a series of outputs including accuracy metrics and plots.
 
 ## Dataset Credits
 
