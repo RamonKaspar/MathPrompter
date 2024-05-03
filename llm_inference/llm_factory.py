@@ -1,25 +1,26 @@
 from dotenv import load_dotenv
-from huggingface_hub import InferenceClient
 
-from .huggingface_llm_service import HuggingFaceService
 from .azure_openai_service import AzureOpenAIService
-from .google_gemini_service import GoogleGeminiService
 
 load_dotenv()   # Load the environment variables located in the .env file
 
-def get_llm_service(service_name, model_name=None):
+def get_llm_service(service_name, model_name, temperature, max_tokens):
+    """
+    Get an instance of a Language Model Service.
+
+    Parameters:
+        service_name (str): Name of the LLM service provider.
+        model_name (str): Name of the language model to use.
+        temperature (float): Sampling temperature for generating responses.
+        max_tokens (int): Maximum number of tokens to generate in each response.
+        
+    Returns:
+        LLMInterface: Instance of a concrete implementation of LLMInterface.
+    
+    Raises:
+        Exception: If the specified LLM service type is unsupported.
+    """
     if service_name == 'azure':
-        return AzureOpenAIService(model_name)
-    elif service_name == 'huggingface':
-        # Check if model is deployed
-        client = InferenceClient()
-        list = client.list_deployed_models("text-generation-inference")['text-generation']
-        for l in list:
-            print(l)
-        if not model_name in list:
-            raise Exception(f"Model {model_name} is not deployed")
-        return HuggingFaceService(model_name)
-    elif service_name == 'google':
-        return GoogleGeminiService()
+        return AzureOpenAIService(model_name, temperature, max_tokens)
     else:
         raise Exception("Unsupported LLM service type")

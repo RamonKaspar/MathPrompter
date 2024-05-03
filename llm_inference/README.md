@@ -1,18 +1,16 @@
 # LLM Inference Service
 
-This directory contains the modules necessary for interfacing with various Large Language Models (LLMs) such as Azure's OpenAI and Hugging Face models. It provides a way to abstract and standardize LLM access, making it easy to integrate and switch between different LLM services.
+This directory contains the modules necessary for interfacing with various Large Language Models (LLMs) such as Azure's OpenAI. It provides a way to abstract and standardize LLM access, making it easy to integrate and switch between different LLM services.
 
 Structure:
 
 - `llm_interface.py`: Defines the standard interface for LLM services.
 - `azure_llm_service.py`: Implementation of the interface for Azure's LLM.
-- `huggingface_llm_service.py`: Implementation of the interface for Hugging Face's LLM.
-- `google_gemini_service.py`: Implementation of the interface for Google's Gemini Pro
 - `llm_factory.py`: A factory module used to instantiate LLM service objects dynamically based on the desired service.
 
 ## Usage of the current services
 
-Default is the usage of the Azure OpenAI API with the `gpt-35-turbo` model. However, you can find implemented services for the Google Gemini Pro API and all the available Hugging Face models.
+Default is the usage of the Azure OpenAI API with the `gpt-35-turbo` model.
 
 1. Setting Up Environment:
    Ensure you have a `.env` file in your environment with the necessary API keys and endpoints (depends on the LLM you want to use) described as:
@@ -47,11 +45,15 @@ To incorporate a new LLM into the system:
    from llm_interface import LLMInterface
 
     class NewLLMService(LLMInterface):
-        def create_prompt(self, prompt):
+         def __init__(self, model_name, temperature, max_tokens):
+            # Implement the set up
+            pass
+
+        def create_prompt(self, system_prompt, few_shot_examples, question):
             # Implement prompt preparation
             pass
 
-        def make_request(self, prompt):
+        def make_request(self, messages):
             # Implement making an HTTP request to the LLM API
             pass
    ```
@@ -62,10 +64,10 @@ To incorporate a new LLM into the system:
    Example:
 
    ```python
-    def get_llm_service(service_name, model_name=None):
+    def get_llm_service(service_name, model_name, temperature, max_tokens):
     if service_name == 'new_llm':
-        return NewLLMService(model_name)
+        return NewLLMService(model_name, temperature, max_tokens)
    ```
 
 4. ### Usage
-   Now you can use the newly added service in the same way as existing services by calling `get_llm_service('new_llm')`.
+   Now you can use the newly added service in the same way as existing services by calling `get_llm_service('new_llm', ...)`.
