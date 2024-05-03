@@ -6,7 +6,7 @@ This repository contains an implementation of the techniques presented in the re
 
 This project is an independent implementation of the techniques described in the ["MathPrompter: Mathematical Reasoning Using Large Language Models"](https://arxiv.org/abs/2303.05398) paper by Microsoft researchers. It is not officially associated with the original authors or Microsoft. For the official and original research, please refer to the cited paper.
 
-## What we did differenetly compared to the original Paper
+## Custom Changes from the Original Paper
 
 ### Including units in the Generation of Algebraic Template
 
@@ -26,6 +26,24 @@ Answer = A - B
 ```
 
 However, you should experiment with different prompts and test which prompts work best for your specific LLM API, as effectiveness can vary depending on the model.
+
+## Evaluating Performance on the SVAMP Dataset
+
+For evaluating our implementation, we benchmarked it on the [SVAMP](https://github.com/arkilpatel/SVAMP/tree/main) dataset (which contains 1000 math word problems). For the detailed evaluation process, please look at the README in the evaluation folder.
+
+To manage costs effectively, each prompt was processed exactly once, an approach we term as `self_consistency=1`. Given that each problem is addressed in a single model run, we set the `temperature` parameter to 0. This ensures that the model response is deterministic, providing the most probable and stable output for each input without the variability that higher temperature settings would introduce.
+
+The evaluation of MathPrompter on the SVAMP dataset achieved an accuracy of **63.9%**.
+
+![SVAMP dataset performance evaluation plot](evaluation/plots/individual_metrics.png)
+
+![Radar chart](evaluation/plots/radar_chart.png)
+
+The evaluation of MathPrompter using the SVAMP dataset reveals distinct strengths across different methodologies. The comprehensive approach (MathPrompter Total) demonstrates respectable accuracy (63.9%) with a low hallucination rate (10.9%), indicating reliable problem-solving capabilities. Specialized methods such as Algebraic Only and Python Only exhibit higher accuracy rates of 77.3% and 70.5% respectively but also show increased hallucination rates. This points to their heightened sensitivity and potential to overfit specific problem types.
+
+For a comparative analysis of how our results hold up against current state-of-the-art methodologies, you can visit the [PaperWithCode Leaderboard for the SVAMP benchmark](https://paperswithcode.com/sota/math-word-problem-solving-on-svamp).
+
+Notably, when considering only models that operate without the use of additional training data, our implementation ranks 4th.
 
 ## Installation
 
