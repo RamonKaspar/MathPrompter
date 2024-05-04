@@ -32,9 +32,9 @@ You are given a math word problem and you need to find the algebraic expression 
 Only the algebraic expression is required, without explanations. 
 '''
 
-def algebric_expression_generation(question: str):
+def algebric_expression_generation(question: str, temperature: float):
     question = question.strip()
-    SERVICE = get_llm_service('azure', 'gpt-35-turbo', temperature=0, max_tokens=200)
+    SERVICE = get_llm_service('openai', 'gpt-3.5-turbo', temperature=temperature, max_tokens=200)
     messages = SERVICE.create_prompt(system_prompt=ALGEBRAIC_SYSTEM_PROMPT, few_shot_examples=ALGEBRAIC_FEW_SHOT_PROMPT, question=question)
     response = SERVICE.make_request(messages=messages)
     expression = response.strip()
@@ -72,8 +72,8 @@ You are given a math word problem and you need to find the Python code that solv
 Only the Python code is required, without explanations.
 '''
 
-def python_code_generation(question):
-    SERVICE = get_llm_service('azure', 'gpt-35-turbo', temperature=0, max_tokens=200)
+def python_code_generation(question, temperature: float):
+    SERVICE = get_llm_service('openai', 'gpt-3.5-turbo', temperature=temperature, max_tokens=200)
     messages = SERVICE.create_prompt(system_prompt=PYTHON_SYSTEM_PROMPT, few_shot_examples=PYTHON_FEW_SHOT_PROMPT, question=question)
     response = SERVICE.make_request(messages=messages)
     function_code = response.strip()

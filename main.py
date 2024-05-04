@@ -2,23 +2,24 @@ from generating_algebraic_template import generating_algebraic_template
 from math_prompts_generation import algebric_expression_generation, python_code_generation
 from compute_verification import perform_computational_verification
 
-def mathprompter(question: str, self_consistency_iterations=5, n_test_random_values=5):
+def mathprompter(question: str, temperatures=[0], n_test_random_values=5):
     """
     Attempts to verify a mathematical prompt via repeated computations and returns the most frequently computed result.
     Parameters:
         question (str): The mathematical question in natural-language form.
-        self_consistency_iterations (int): Number of times the verification should be performed.
+        temperatures (list[float]): Sequences of temperature settings used to vary generation randomness.
+                                    Defines the number of self consistency iterations.
         n_test_random_values (int): Number of random samples to test for each verification.
 
     Returns:
         The most frequently computed result over iterations, or None if no consistent result was found.
     """
     result_counts = {}
-    for _ in range(self_consistency_iterations):     # TODO: Parallelize this
+    for temp in temperatures:     # TODO: Parallelize this
         try:
             qt, variable_mapping = generating_algebraic_template(question)
-            exp = algebric_expression_generation(qt)
-            code = python_code_generation(qt)
+            exp = algebric_expression_generation(qt, temperature=temp)
+            code = python_code_generation(qt, temperature=temp)
             res = perform_computational_verification(exp, code, variable_mapping, sample_size=n_test_random_values)
             if res is not None:
                 if res in result_counts:
@@ -39,6 +40,6 @@ def mathprompter(question: str, self_consistency_iterations=5, n_test_random_val
 # Example usage
 if __name__ == '__main__':
     question = 'At a restaurant, each adult meal costs $5 and kids eat free. If a group of 15 people came in and 8 were kids, how much would it cost for the group to eat?'
-    res = mathprompter(question,self_consistency_iterations=1, n_test_random_values=3)
+    res = mathprompter(question, temperatures=[0.0, 0.2, 0.4, 0.6, 0.8], n_test_random_values=3)
     print(f"Result: {res}")
     
