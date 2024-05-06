@@ -35,7 +35,7 @@ To manage costs effectively, each prompt was processed exactly once, an approach
 
 The evaluation of MathPrompter on the SVAMP dataset achieved an accuracy of **63.9%**.
 
-![SVAMP dataset performance evaluation plot](evaluation/plots/individual_metrics.png)
+![SVAMP dataset performance evaluation plot](evaluation/plots/SVAMP_individual_metrics.png)
 
 The evaluation of MathPrompter using the SVAMP dataset reveals distinct strengths across different methodologies. The comprehensive approach (MathPrompter Total) demonstrates respectable accuracy (63.9%) with a low hallucination rate (10.9%), indicating reliable problem-solving capabilities. Specialized methods such as Algebraic Only and Python Only exhibit higher accuracy rates of 77.3% and 70.5% respectively but also show increased hallucination rates. This points to their heightened sensitivity and potential to overfit specific problem types.
 
@@ -94,7 +94,3 @@ This implementation is based on the following work:
 ```
 
 For more detail and to read the paper, you can access it [here](https://arxiv.org/abs/2303.05398).
-
-## License
-
-This implementation is provided under the MIT License, which allows for commercial use, modification, distribution, and private use. See the LICENSE file for full details.
