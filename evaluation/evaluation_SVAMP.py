@@ -2,8 +2,6 @@ import json
 from tqdm import tqdm
 import sys
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Add the root directory to sys.path to find the main module
 sys.path.append('..')
